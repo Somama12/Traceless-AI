@@ -1,11 +1,10 @@
 import React from 'react'
 import './App.css'
+import Home from './pages/Home'
 
 const App = () => {
   return (
-    <div className='bg-red-500'>
-      Hey this my app
-    </div>
+    <Home/>
   )
 }
 
